@@ -19,6 +19,19 @@ body {
     margin: 0;
 }
 
+#in-progress li {
+    background-color: #fdfd96; /* Light yellow */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#done li {
+    background-color: #d4edda; /* Light green */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .progress-checkbox:checked + span,
 .done-checkbox:checked + span {
